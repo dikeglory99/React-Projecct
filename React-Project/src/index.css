@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar{
+  height: 70px;
+  display: flex;
+  box-shadow: 0px 5px 10px rgb(189, 188, 188);
+}
+.navbar .logo{
+  padding-top: 10px;
+  text-align: center;
+  margin-left: 170px;
+}
+.nav{
+  margin: 10px;
+  margin-left: 500px;  
+}
+.nav .nav_item{
+  display: flex;
+  list-style: none;
+
+}
+.nav .nav_item .links{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 22px;
+  margin-right: 101px;
+}
+
+.container{
+  padding: 50px 50px 20px;
+  display: flex;
+}
+
+.cards{
+  display: grid;
+  flex: 2;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+.card{
+  padding: 10px;
+  padding-top: 80px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px rgb(194, 194, 194);
+  width: 250px;
+  height: 200px;
+
+}
+.card .price{
+  margin: 10px 0;
+}
+.side_container{
+  padding: 20px;
+  width: 450px;
+  height: 200px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  box-shadow: 0px 5px 10px rgb(194, 194, 194);
+}
+.side_container span{
+  font-size: 14px;
+}
+.side_container_layout{
+  flex: 1;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
